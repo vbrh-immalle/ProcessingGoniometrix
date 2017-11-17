@@ -28,8 +28,8 @@ void drawOrthos() {
   line(width/2 + nrUnitPixels * cos(angle), 
       height/2, 
       width/2 + nrUnitPixels * cos(angle), 
-      height/2 + nrUnitPixels * sin(angle)); // cos
-  // TODO: sin
+      height/2 + nrUnitPixels * sin(angle)); // sine-projection X-axis
+  // TODO: cosine-projection on Y-axis
 }
 
 void setup() {
